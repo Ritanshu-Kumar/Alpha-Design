@@ -1,0 +1,20 @@
+{
+  "max_generations": 200,
+  "population_size": 15,
+  "max_runtime_hours": 336,
+  
+  "genetic_algorithm": {
+    "mutation_rate": 0.5,
+    "elite_ratio": 0.2
+  },
+  
+  "neural_network": {
+    "training_frequency": 3,
+    "epochs_per_training": 25
+  },
+  
+  "cfd_analysis": {
+    "timeout_seconds": 450,
+    "smart_skipping": true
+  }
+}
